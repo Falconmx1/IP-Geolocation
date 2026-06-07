@@ -10,6 +10,19 @@
 - Modo silencioso para scripts
 - Exportación a JSON/CSV
 
+## 📊 Exportar resultados
+
+```bash
+# Exportar a CSV
+python ip_geolocation.py 8.8.8.8 --output resultados.csv
+
+# Exportar a JSON
+python ip_geolocation.py --file ips.txt --output datos.json
+
+# Formato automático según extensión
+python ip_geolocation.py --myip --output mi_ubicacion.csv
+
+
 ## 📦 Instalación
 
 ```bash
